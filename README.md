@@ -12,7 +12,7 @@ omdsc-dev 组织的 Pages 入口仓库。仓库内容全部是静态文件,由 G
 ├── chat/
 │   └── index.html    在线聊天入口,跳转到 DeepSeek-Chat-Enhanced 的 Pages 页面
 ├── .nojekyll         空文件,关闭 GitHub Pages 的 Jekyll 处理,文件按原样发布
-├── .gitignore        忽略规则,排除依赖目录、日志、临时目录与本地代理配置
+├── .gitignore        忽略规则,排除依赖目录、日志、临时目录与本地 Agent 配置(AGENTS.md、.agent/、.agents/)
 ├── LICENSE           Apache License 2.0 全文
 └── README.md         本说明文件
 ```
@@ -30,7 +30,7 @@ https://omdsc-dev.github.io/DeepSeek-Chat-Enhanced/
 - `<meta http-equiv="refresh" content="0; url=...">`,作为无脚本环境下的兜底。
 - 一段内联脚本执行 `location.replace()`,脚本可用时优先跳转,且不向浏览器历史记录写入多余条目。
 
-页面正文保留一行说明与一个可点击的备用链接,目标页面不可达时用户仍可手动进入。该页面不做任何可达性探测,也不引入任何外部资源,样式与脚本全部内联。
+页面正文保留说明文字与可点击的备用链接;目标站点不可达时,用户也可以前往产品仓库页,从 Releases 获取离线包。该页面不做任何可达性探测,也不引入任何外部资源,样式与脚本全部内联。
 
 ## 部署与本地预览
 
