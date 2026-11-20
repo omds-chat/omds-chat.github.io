@@ -1,8 +1,8 @@
-# omdsc-dev.github.io
+# omds-chat.github.io
 
-omdsc-dev 组织的 Pages 入口仓库。仓库内容全部是静态文件,由 GitHub Pages 直接托管根目录,不经过任何构建流程。
+omds-chat 组织的 Pages 入口仓库。仓库内容全部是静态文件,由 GitHub Pages 直接托管根目录,不经过任何构建流程。
 
-组织的定位与仓库组成以 [.github 仓库的中文说明](https://github.com/omdsc-dev/.github/blob/main/profile/README.md) 与 [英文说明](https://github.com/omdsc-dev/.github/blob/main/profile/README.en-US.md) 为准,本仓库不重复陈述。组织的主产品为 DeepSeek-Chat-Enhanced:代码在 [该仓库](https://github.com/omdsc-dev/DeepSeek-Chat-Enhanced),在线页面通过 Pages 提供,统一由本仓库的 [`chat/`](./chat/) 入口进入。
+组织的定位与仓库组成以 [.github 仓库的中文说明](https://github.com/omds-chat/.github/blob/main/profile/README.md) 与 [英文说明](https://github.com/omds-chat/.github/blob/main/profile/README.en-US.md) 为准,本仓库不重复陈述。组织的主产品为 DeepSeek-Chat-Enhanced:代码在 [该仓库](https://github.com/omds-chat/DeepSeek-Chat-Enhanced),在线页面通过 Pages 提供,统一由本仓库的 [`chat/`](./chat/) 入口进入。
 
 ## 目录结构
 
@@ -22,7 +22,7 @@ omdsc-dev 组织的 Pages 入口仓库。仓库内容全部是静态文件,由 G
 `chat/index.html` 是纯静态跳转页,跳转目标固定为:
 
 ```text
-https://omdsc-dev.github.io/DeepSeek-Chat-Enhanced/
+https://omds-chat.github.io/DeepSeek-Chat-Enhanced/
 ```
 
 跳转由两条路径完成:
