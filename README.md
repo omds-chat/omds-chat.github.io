@@ -25,12 +25,11 @@ omds-chat 组织的 Pages 入口仓库。仓库内容全部是静态文件,由 G
 https://omds-chat.github.io/DeepSeek-Chat-Enhanced/
 ```
 
-跳转由两条路径完成:
+跳转只有一条路径:
 
-- `<meta http-equiv="refresh" content="0; url=...">`,作为无脚本环境下的兜底。
-- 一段内联脚本执行 `location.replace()`,脚本可用时优先跳转,且不向浏览器历史记录写入多余条目。
+- `<meta http-equiv="refresh" content="0;url=https://omds-chat.github.io/DeepSeek-Chat-Enhanced/">`:浏览器解析到页面即刻跳转,无需等待,也不依赖脚本。
 
-页面正文保留说明文字与可点击的备用链接;目标站点不可达时,用户也可以前往产品仓库页,从 Releases 获取离线包。该页面不做任何可达性探测,也不引入任何外部资源,样式与脚本全部内联。
+页面正文只保留一句失败提示与指向同一目标的手动链接(`target="_self"`),仅在自动跳转未生效或目标地址不可达时使用。该页面不含 `<script>`、不含内联样式与任何外部资源,也不做可达性探测。
 
 ## 部署与本地预览
 
