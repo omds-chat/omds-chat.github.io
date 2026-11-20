@@ -29,7 +29,7 @@ https://omds-chat.github.io/DeepSeek-Chat-Enhanced/
 
 - `<meta http-equiv="refresh" content="0;url=https://omds-chat.github.io/DeepSeek-Chat-Enhanced/">`:浏览器解析到页面即刻跳转,无需等待,也不依赖脚本。
 
-页面正文只保留一句失败提示与指向同一目标的手动链接(`target="_self"`),仅在自动跳转未生效或目标地址不可达时使用。该页面不含 `<script>`、不含内联样式与任何外部资源,也不做可达性探测。
+页面正文只保留失败提示与指向同一目标的手动链接(`target="_self"`),中英各一行,仅在自动跳转未生效或目标地址不可达时使用。页面声明 `lang="en"` 与 `charset=utf-8`,不含 `<script>`、不含内联样式与任何外部资源,也不做可达性探测。
 
 ## 部署与本地预览
 
